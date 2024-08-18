@@ -4,7 +4,8 @@ drop database HPIIFINAL_BIBLIOTECA
 
 use HPIIFINAL_BIBLIOTECA
 
-
+SET LANGUAGE spanish
+go
 
 USE master;
 ALTER DATABASE HPIIFINAL_BIBLIOTECA
@@ -242,3 +243,5 @@ select * from Usuarios
 select * from autores
 select * from Libros
 select * from Prestamos
+SELECT 'Base de Datos HPIIFINAL_BIBLIOTECA creado correctamente' AS MENSAJE
+GO
